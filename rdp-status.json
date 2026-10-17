@@ -1,42 +1,42 @@
 {
   "active": true,
-  "hostname": "rdpfree-3",
-  "os": "Microsoft Windows Server 2025 Datacenter",
-  "os_build": "10.0.26100",
+  "hostname": "rdpfree-4",
+  "os": "Microsoft Windows Server 2022 Datacenter",
+  "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "ram_gb": 16.0,
-    "disk_free_gb": 31.4,
-    "cpu_threads": 4
+    "disk_free_gb": 82.7,
+    "cpu_threads": 4,
+    "ram_gb": 16.0
   },
   "rdp_port": 3389,
-  "rdp_user": "Reyn",
+  "rdp_user": "Reynaja",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-17T17:02:52Z",
-  "expires_at": "2026-10-17T22:44:52Z",
+  "started_at": "2026-10-17T17:17:35Z",
+  "expires_at": "2026-10-17T22:59:35Z",
   "duration_menit": 342,
-  "run_id": "39052014748",
+  "run_id": "39052995441",
   "run_attempt": "1",
-  "run_number": "3",
-  "run_url": "https://github.com/reyajaaw/RDPrey/actions/runs/39052014748",
+  "run_number": "4",
+  "run_url": "https://github.com/reyajaaw/RDPrey/actions/runs/39052995441",
   "mode": "bersih+win10",
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "magicdns": "rdpfree-3.taila5a0e8.ts.net.",
-      "hostname": "rdpfree-3",
-      "status": "ok",
+      "hostname": "rdpfree-4",
       "ip": "100.111.119.88",
+      "magicdns": "rdpfree-4.taila5a0e8.ts.net.",
+      "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
     },
     "tunnel": {
-      "host": "100.111.119.88",
+      "address": "100.111.119.88:3389",
       "outside": "tailscale",
       "port": 3389,
       "selftest": "ok",
-      "status": "ok",
-      "address": "100.111.119.88:3389"
+      "host": "100.111.119.88",
+      "status": "ok"
     }
   }
 }
