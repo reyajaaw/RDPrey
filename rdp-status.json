@@ -1,41 +1,41 @@
 {
   "active": true,
-  "hostname": "reynajalah-13",
+  "hostname": "reyn-15",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Native Windows",
   "hardware": {
-    "disk_free_gb": 80.0,
     "ram_gb": 16.0,
+    "disk_free_gb": 82.9,
     "cpu_threads": 4
   },
   "rdp_port": 3389,
-  "rdp_user": "reynaja",
+  "rdp_user": "reyn",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-17T18:29:42Z",
-  "expires_at": "2026-10-18T00:11:42Z",
+  "started_at": "2026-10-17T18:33:57Z",
+  "expires_at": "2026-10-18T00:15:57Z",
   "duration_menit": 342,
-  "run_id": "39058307542",
+  "run_id": "39058630946",
   "run_attempt": "1",
-  "run_number": "13",
-  "run_url": "https://github.com/reyajaaw/RDPrey/actions/runs/39058307542",
+  "run_number": "15",
+  "run_url": "https://github.com/reyajaaw/RDPrey/actions/runs/39058630946",
   "mode": "bersih+win10",
   "akses": {
     "tunnel": {
-      "port": 3389,
-      "address": "100.111.119.88:3389",
-      "selftest": "ok",
       "status": "ok",
+      "port": 3389,
+      "selftest": "ok",
       "host": "100.111.119.88",
+      "address": "100.111.119.88:3389",
       "outside": "tailscale"
     },
     "tailscale": {
-      "hostname": "reynajalah-13",
       "status": "ok",
-      "magicdns": "reynajalah-11.taila5a0e8.ts.net.",
-      "ip": "100.111.119.88",
-      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL."
+      "hostname": "reyn-15",
+      "magicdns": "reyn-15.taila5a0e8.ts.net.",
+      "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
+      "ip": "100.111.119.88"
     },
     "mode": "tailscale"
   }
